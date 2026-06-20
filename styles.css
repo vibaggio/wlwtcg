@@ -287,3 +287,13 @@
   .duel-card.down { animation:duelDown .45s cubic-bezier(.2,.7,.2,1); }
   @keyframes duelUp { from{ transform:translateY(60px); opacity:0; } to{ transform:translateY(0); opacity:1; } }
   @keyframes duelDown { from{ transform:translateY(-60px); opacity:0; } to{ transform:translateY(0); opacity:1; } }
+  .cracha { transition:border-color .15s ease, box-shadow .15s ease; }
+  .cracha:hover { border-color:var(--accent); }
+  .itip-wrap { position:relative; display:inline-flex; cursor:pointer; }
+  .itip { position:absolute; bottom:calc(100% + 7px); left:50%; transform:translateX(-50%);
+          background:var(--text); color:var(--panel); padding:6px 9px; border-radius:8px;
+          font-size:11px; line-height:1.3; width:max-content; max-width:190px; z-index:60;
+          box-shadow:0 5px 16px rgba(0,0,0,.28); text-align:left; pointer-events:none; }
+  .itip b { display:block; margin-bottom:2px; }
+  .itip::after { content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+                 border:5px solid transparent; border-top-color:var(--text); }
