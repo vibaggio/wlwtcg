@@ -126,7 +126,7 @@
            border:2px solid var(--bcol,#3a4a3f); background:var(--bdark,#1a1d17);
            color:#f5f1e6; --text:#f5f1e6; --muted:#c4cbb8; --line:#ffffff22;
            display:flex; flex-direction:column; box-shadow:0 3px 12px #0008;
-           container-type:inline-size; }
+           container-type:inline-size; text-align:left; }
   .tcard.reveal { box-shadow:0 0 0 2px #e6a53c, 0 3px 12px #0008; }
   .tcard .titlebar { font-weight:700; font-size:6.3cqw; line-height:1.15; padding:2.3cqw 4.6cqw;
            white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
