@@ -340,6 +340,10 @@
   .crh-controls { margin-top:12px; padding-top:12px; border-top:1px solid var(--line);
                   display:flex; align-items:center; gap:12px; flex-wrap:wrap; justify-content:space-between; }
   .crh-actions { display:flex; gap:8px; flex-wrap:wrap; }
+  .tiergrid { display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); margin-bottom:14px; }
+  .tier { display:flex; flex-direction:column; }
+  .tier-name { font-weight:800; font-size:17px; }
+  .tier-soon { color:var(--accent); font-weight:700; font-size:12px; margin-top:2px; }
   @media (max-width:560px){
     .crh-seals { margin-left:0; align-items:center; flex-direction:row; gap:9px; flex-basis:100%; }
   }
