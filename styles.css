@@ -144,6 +144,11 @@
            border-radius:5px; padding:3px 1px; text-align:center; }
   .statrow .stat .v { font-weight:700; font-size:10px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .statrow .stat .l { font-size:7.5px; color:var(--muted); text-transform:uppercase; letter-spacing:.3px; }
+  .enc .small { font-size:14px; }
+  .enc .statrow { gap:8px; }
+  .enc .statrow .stat { min-width:92px; padding:6px 8px; }
+  .enc .statrow .stat .v { font-size:15px; white-space:normal; overflow:visible; text-overflow:clip; }
+  .enc .statrow .stat .l { font-size:11px; }
   .tcard .statrow { gap:2.9cqw; }
   .tcard .statrow .stat { border-radius:2.9cqw; padding:1.7cqw 0.6cqw; background:rgba(0,0,0,.32); border-color:#ffffff22; }
   .tcard .floatbar { background:rgba(0,0,0,.32); }
